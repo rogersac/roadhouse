@@ -22,7 +22,7 @@ RUN npm run build --prod
 # See base image for more information:
 # https://catalog.redhat.com/software/containers/ubi8/nginx-120/6156abfac739c0a4123a86fd
 #----------------------------------------------------------------
-FROM quayregistry-quay-quayregistry.apps.ocp-11p.hs.it.vumc.io/vumcit_aps/common/ubi8/nginx-120
+FROM registry.access.redhat.com/ubi8/nginx-120
 
 # Add application to the source directory for the assemble script
 # Also sets permissions so that container runs without root access
