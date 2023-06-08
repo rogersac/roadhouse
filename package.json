@@ -1,0 +1,18 @@
+{
+  "name": "roadhoust",
+  "version": "1.0.0",
+  "description": "A simple hello world Express/NodeJS application",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "nodejs",
+    "hello-world"
+  ],
+  "license": "ISC",
+  "dependencies": {
+  }
+}
+
